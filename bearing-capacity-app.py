@@ -133,6 +133,6 @@ prediction=model()
 
 st.header('Predicted Seismic Bearing Capacity Factor')
 st.subheader(f"Regressor Used: {regressor}")
-st.write('Seismic Bearing Capacity Factor (N) =', prediction)
+st.write('Seismic Bearing Capacity Factor (N) =', prediction[0])
 st.write('---')
 
